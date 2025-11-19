@@ -1,6 +1,6 @@
 import getData from "./getData"
 import renderGoods from "./renderGoods"
-import { categoryFilter } from "./filter"
+import { categoryFilter } from "./filters"
 
 const catalog = () => {
     const btnCatalog = document.querySelector('.catalog-button > button')
